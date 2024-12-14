@@ -14,6 +14,7 @@
     "useDefineForClassFields": true, // Utiliser la syntaxe de définition pour les champs de classe
     "allowJs": true, // Autoriser l'importation de fichiers JavaScript
     "baseUrl": ".", // Base directory to resolve non-relative module names
+    "skipLibCheck": true,
     "paths": {
       // Chemins d'alias pour les différents dossiers
       "#core/*": ["src/core/*"],
@@ -24,6 +25,6 @@
       "#enums/*": ["src/core/enums/*"]
     }
   },
-  "include": ["src/**/*"], // Inclure tous les fichiers TypeScript du dossier src
+  "include": ["src/**/*", "tests/**/*.spec.ts"],
   "exclude": ["node_modules", "dist"] // Exclure les dossiers node_modules et dist
 }
