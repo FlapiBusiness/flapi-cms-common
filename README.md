@@ -1,4 +1,4 @@
-# Flapi - create-flapi-app
+# Flapi - flapi-cms-common
 
 ## Usage
 
