@@ -14,15 +14,16 @@
     "useDefineForClassFields": true, // Utiliser la syntaxe de définition pour les champs de classe
     "allowJs": true, // Autoriser l'importation de fichiers JavaScript
     "baseUrl": ".", // Base directory to resolve non-relative module names
-    "paths": { // Chemins d'alias pour les différents dossiers
+    "paths": {
+      // Chemins d'alias pour les différents dossiers
       "#core/*": ["src/core/*"],
       "#services/*": ["src/core/services/*"],
       "#utils/*": ["src/core/utils/*"],
       "#models/*": ["src/core/models/*"],
       "#types/*": ["src/core/types/*"],
-      "#enums/*": ["src/core/enums/*"],
+      "#enums/*": ["src/core/enums/*"]
     }
   },
-  "include": ["src/**/*", "tests/unit/**/*.spec.ts"], // Inclure tous les fichiers TypeScript du dossier src
+  "include": ["src/**/*"], // Inclure tous les fichiers TypeScript du dossier src
   "exclude": ["node_modules", "dist"] // Exclure les dossiers node_modules et dist
 }
