@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": true, // Générer les fichiers .d.ts
+    "target": "ESNext", // Compiler vers la version la plus récente d'ECMAScript
+    "module": "ESNext", // Utiliser les modules ES standard
+    "moduleResolution": "Node", // Stratégie de résolution des modules
+    "strict": true, // Activer tous les contrôles de type stricts
+    "esModuleInterop": true, // Permet l'interopérabilité des modules ES avec les modules CommonJS
+    "outDir": "./dist", // Dossier de sortie pour les fichiers compilés
+    "resolveJsonModule": true, // Permettre l'importation de modules JSON
+    "isolatedModules": true, // S'assurer que chaque fichier peut être transpilé séparément
+    "allowSyntheticDefaultImports": true, // Permettre les imports par défaut synthétiques
+    "forceConsistentCasingInFileNames": true, // Vérifier la casse des noms de fichiers
+    "useDefineForClassFields": true, // Utiliser la syntaxe de définition pour les champs de classe
+    "allowJs": true, // Autoriser l'importation de fichiers JavaScript
+    "baseUrl": "." // Base directory to resolve non-relative module names
+  },
+  "include": ["src/**/*"], // Inclure tous les fichiers TypeScript du dossier src
+  "exclude": ["node_modules", "dist"] // Exclure les dossiers node_modules et dist
+}
