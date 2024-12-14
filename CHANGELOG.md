@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0 (2024-12-14)
+
+
+### Features
+
+* add config vitest ([2e02739](https://github.com/FlapiBusiness/flapi-cms-common/commit/2e02739bec61f8b4f47b3abf7627b517bc2956f8))
+* improvement vitest ([9c52969](https://github.com/FlapiBusiness/flapi-cms-common/commit/9c529691f8be4b93c038f2aa7f570e7381ddbeb4))
+* init project ([f0eda36](https://github.com/FlapiBusiness/flapi-cms-common/commit/f0eda36b7846a022ad96b3cb4eec80ffc9c3ce50))
+* remove package ([6e89c53](https://github.com/FlapiBusiness/flapi-cms-common/commit/6e89c5398a6a8b84ec7d7f718f4d6a724468d093))
+
 ## [1.4.3](https://github.com/FlapiBusiness/create-flapi-app/compare/v1.4.2...v1.4.3) (2024-11-07)
 
 ### Bug Fixes
