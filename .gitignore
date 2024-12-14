@@ -20,6 +20,5 @@ yarn-error.log*
 # Vim swap files
 *.swp
 
-# Project generate
-my-dev-project
-my-app
+# Unit tests
+tests/unit/test-reports/

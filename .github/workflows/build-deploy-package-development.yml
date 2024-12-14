@@ -21,10 +21,13 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies for project
-        run: npm ci --ignore-scripts
+        run: npm install --ignore-scripts
 
-      #- name: Lint TypeScript and ESLint for project
-      #  run: npm run lint:ts && npm run lint:eslint
+      - name: Lint TypeScript and ESLint for project
+        run: npm run lint:ts && npm run lint:eslint
+
+      - name: Run Unit Tests for project
+        run: npm run test:unit:staging-prod
 
       - name: Build project
         run: npm run build

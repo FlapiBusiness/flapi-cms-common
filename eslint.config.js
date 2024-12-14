@@ -5,16 +5,18 @@ import eslintPluginStylistic from '@stylistic/eslint-plugin'
 import eslintPluginJSDoc from 'eslint-plugin-jsdoc'
 import eslintPluginUnusedImports from 'eslint-plugin-unused-imports'
 import eslintParserTypeScript from '@typescript-eslint/parser'
+import eslintPluginVitest from 'eslint-plugin-vitest'
 
 // Configuration principale
 const mainConfig = {
-  files: ['src/**/*.ts'],
+  files: ['src/**/*.ts', 'tests/**/*.spec.ts'],
   plugins: {
     '@typescript-eslint': eslintPluginTypeScript,
     'eslint-plugin-prettier': eslintPluginPrettier,
     'eslint-plugin-unused-imports': eslintPluginUnusedImports,
     'eslint-plugin-jsdoc': eslintPluginJSDoc,
     '@stylistic-eslint-plugin': eslintPluginStylistic,
+    'eslint-plugin-vitest': eslintPluginVitest,
   },
   rules: {
     /**
@@ -144,7 +146,7 @@ const mainConfig = {
 // Configuration pour l'ignorance globale
 // Bug issue : https://github.com/eslint/eslint/issues/17400
 const ignoreConfig = {
-  ignores: ['dist/**'],
+  ignores: ['dist/**', 'tests/unit/test-reports'],
 }
 
 /**
@@ -153,4 +155,10 @@ const ignoreConfig = {
  * Exportation combinée des configurations
  * eslint.config.{js,mjs,cjs} nouvelle syntaxe depuis la version >= 8.57
  */
-export default [mainConfig, ignoreConfig, eslintPluginJSDoc.configs['flat/recommended'], eslintConfigPrettier]
+export default [
+  mainConfig,
+  ignoreConfig,
+  eslintPluginJSDoc.configs['flat/recommended'],
+  eslintConfigPrettier,
+  eslintPluginVitest.configs.recommended,
+]

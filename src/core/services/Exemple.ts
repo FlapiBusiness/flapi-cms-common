@@ -1,13 +1,25 @@
 /**
- * Exemple de service
- * @class Exemple3
+ * Service de mathématiques
+ * @class MathService
  */
-export class Exemple3 {
+export class MathService {
   /**
-   * Méthode d'exemple
-   * @returns {void} - Rien
+   * Add two numbers
+   * @param {number} a - Nombre
+   * @param {number} b - Nombre
+   * @returns {number} - Résultat
    */
-  public static exemple(): void {
-    console.log('Exemple')
+  public static add(a: number, b: number): number {
+    return a + b
+  }
+
+  /**
+   * Subtract two numbers
+   * @param {number} a - Nombre
+   * @param {number} b - Nombre
+   * @returns {number} - Résultat
+   */
+  public static subtract(a: number, b: number): number {
+    return a - b
   }
 }

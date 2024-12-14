@@ -47,22 +47,6 @@ nvm install lts && nvm use lts
 npm install
 ```
 
-5. Install husky :
-
-```bash
-npx husky
-```
-
-<br /><br /><br /><br />
-
-## 🔄 Cycle Development
-
-1. Run command :
-
-```bash
-   npm run dev
-```
-
 <br /><br /><br /><br />
 
 ## 🚀 Production
