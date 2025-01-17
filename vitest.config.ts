@@ -10,6 +10,12 @@ export default defineConfig({
     coverage: {
       provider: 'v8', // Fournisseur de couverture
       reportsDirectory: './tests/unit/test-reports', // Répertoire pour les rapports de couverture
+      include: [
+        'src/core/services/**', // Inclure uniquement les fichiers du dossier services
+      ],
+      exclude: [
+        'src/core/services/index.ts', // Exclure index.ts spécifiquement
+      ],
     },
   },
 })
