@@ -1,0 +1,10 @@
+{
+  "entryPoints": ["./src/core/index.ts"],
+  "tsconfig": "tsconfig.build.json",
+  "out": "docs",
+  "excludeInternal": true,
+  "hideGenerator": true,
+  "theme": "default",
+  "lightHighlightTheme": "github-dark",
+  "darkHighlightTheme": "github-dark"
+}

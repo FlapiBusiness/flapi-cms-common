@@ -2,21 +2,18 @@
 
 ## [1.1.0](https://github.com/FlapiBusiness/flapi-cms-common/compare/v1.0.0...v1.1.0) (2025-02-02)
 
-
 ### Features
 
-* delete dependabot ([cda5ac2](https://github.com/FlapiBusiness/flapi-cms-common/commit/cda5ac2d4a4847b626ca6e87d7eeeb0a5fe97ee2))
-
+- delete dependabot ([cda5ac2](https://github.com/FlapiBusiness/flapi-cms-common/commit/cda5ac2d4a4847b626ca6e87d7eeeb0a5fe97ee2))
 
 ### Bug Fixes
 
-* fixed peer dependencies ([424339c](https://github.com/FlapiBusiness/flapi-cms-common/commit/424339c1a2c1c15f6044664a9f1633d4dd7fc2ca))
-
+- fixed peer dependencies ([424339c](https://github.com/FlapiBusiness/flapi-cms-common/commit/424339c1a2c1c15f6044664a9f1633d4dd7fc2ca))
 
 ### Performance Improvements
 
-* improvement unit test for vitest coverage ([eefd281](https://github.com/FlapiBusiness/flapi-cms-common/commit/eefd28168ac67f4c79f5756d9d6598a272f77825))
-* improvement unit tests import and build ([23d3d27](https://github.com/FlapiBusiness/flapi-cms-common/commit/23d3d27b730c2428847666f5801a81bdaae9107f))
+- improvement unit test for vitest coverage ([eefd281](https://github.com/FlapiBusiness/flapi-cms-common/commit/eefd28168ac67f4c79f5756d9d6598a272f77825))
+- improvement unit tests import and build ([23d3d27](https://github.com/FlapiBusiness/flapi-cms-common/commit/23d3d27b730c2428847666f5801a81bdaae9107f))
 
 ## 1.0.0 (2024-12-14)
 

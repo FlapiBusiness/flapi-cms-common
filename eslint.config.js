@@ -146,7 +146,7 @@ const mainConfig = {
 // Configuration pour l'ignorance globale
 // Bug issue : https://github.com/eslint/eslint/issues/17400
 const ignoreConfig = {
-  ignores: ['dist/**', 'tests/unit/test-reports'],
+  ignores: ['dist/**', 'tests/unit/test-reports', 'docs/**'],
 }
 
 /**
