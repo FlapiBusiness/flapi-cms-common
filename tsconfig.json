@@ -17,7 +17,7 @@
     "skipLibCheck": true,
     "paths": {
       // Chemins d'alias pour les différents dossiers
-      "#/*": ["src/*"],
+      "#/*": ["src/*"]
     }
   },
   "include": ["src/**/*", "tests/**/*.spec.ts"],
