@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { MathService } from '#services/Exemple'
+import { MathService } from '#/core'
 
 describe('MathService', (): void => {
   it('should add two numbers correctly', (): void => {

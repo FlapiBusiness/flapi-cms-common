@@ -17,12 +17,7 @@
     "skipLibCheck": true,
     "paths": {
       // Chemins d'alias pour les différents dossiers
-      "#core/*": ["src/core/*"],
-      "#services/*": ["src/core/services/*"],
-      "#utils/*": ["src/core/utils/*"],
-      "#models/*": ["src/core/models/*"],
-      "#types/*": ["src/core/types/*"],
-      "#enums/*": ["src/core/enums/*"]
+      "#/*": ["src/*"],
     }
   },
   "include": ["src/**/*", "tests/**/*.spec.ts"],
