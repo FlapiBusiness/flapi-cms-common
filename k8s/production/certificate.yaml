@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: prod-common-flapi-cert
+  namespace: prod-common-flapi
+spec:
+  secretName: prod-common-flapi-tls
+  dnsNames:
+    - common.flapi.org
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer

@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dev-common-flapi-ingress
+  namespace: dev-common-flapi
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-production
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - dev.common.flapi.org
+      secretName: dev-common-flapi-tls
+  rules:
+    - host: dev.common.flapi.org
+      http:
+        paths:
+          - pathType: Prefix
+            path: '/'
+            backend:
+              service:
+                name: dev-common-flapi-service
+                port:
+                  number: 80
