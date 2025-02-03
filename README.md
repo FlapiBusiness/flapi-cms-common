@@ -35,6 +35,14 @@ console.log(MathService.add(1, 1))
 
 ---
 
+## 📖 Documentation
+
+Retrouvez la documentation complète de l'API : <br />
+Development (tag dev npm) : https://dev.common.flapi.org <br />
+Production (tag latest npm) : https://common.flapi.org
+
+---
+
 ## 📜 Licence
 
 Ce projet est un logiciel propriétaire de **Flapi**.  
