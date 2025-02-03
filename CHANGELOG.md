@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/FlapiBusiness/flapi-cms-common/compare/v1.1.0...v1.2.0) (2025-02-03)
+
+
+### Features
+
+* add k8s and docs ([d74f6c2](https://github.com/FlapiBusiness/flapi-cms-common/commit/d74f6c253929c8248a4d3b787404395a5ca08e08))
+* add typedoc for generate doc ([bb67d55](https://github.com/FlapiBusiness/flapi-cms-common/commit/bb67d55c0281fdbb3319ec87149b4d6551b0bdf6))
+
 ## [1.1.0](https://github.com/FlapiBusiness/flapi-cms-common/compare/v1.0.0...v1.1.0) (2025-02-02)
 
 ### Features
