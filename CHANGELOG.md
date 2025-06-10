@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/FlapiBusiness/flapi-cms-common/compare/v1.3.0...v1.3.1) (2025-06-10)
+
+
+### Bug Fixes
+
+* x ([3ecef92](https://github.com/FlapiBusiness/flapi-cms-common/commit/3ecef925ecdc54431aad35c28bd97d4625840dec))
+
 ## [1.3.0](https://github.com/FlapiBusiness/flapi-cms-common/compare/v1.2.0...v1.3.0) (2025-02-03)
 
 
