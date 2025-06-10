@@ -47,4 +47,4 @@ Production (tag latest npm) : https://common.flapi.org
 
 Ce projet est un logiciel propriétaire de **Flapi**.  
 Il ne peut être ni redistribué, ni modifié sans l'autorisation explicite de **Flapi**.  
-Tous droits réservés © **Flapi**.
+Tous droits réservés © **Flapi**
